@@ -1,0 +1,794 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Apr 29 10:13:23 2016
+# Process ID: 9252
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent604 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab7\Stop_Watch\Stop_Watch\Stop_Watch.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 10:19:40 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:20:22 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:21:55 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 10:21:55 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:23:37 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 10:23:37 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:25:19 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 10:25:19 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 10:26:38 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 10:27:11 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:28:06 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:35:01 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 10:35:01 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 10:35:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 10:35:55 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.1
+  **** Build date : Apr  8 2016-16:12:32
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 860.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736731A
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736731A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736731A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 11:50:45 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 11:51:20 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736731A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736731A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Fri Apr 29 13:34:29 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 13:35:42 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 13:36:18 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+[Fri Apr 29 13:39:50 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 13:40:24 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 13:45:26 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 13:47:28 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 13:48:00 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 13:48:56 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 14:01:00 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+remove_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v
+file delete -force C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/ClkDivider.v
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 14:13:35 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:14:16 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:15:13 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 14:16:56 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:17:28 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:18:26 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 14:28:57 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:29:28 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:30:24 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+remove_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v
+file delete -force C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 14:40:11 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:40:41 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:41:37 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 14:43:59 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:44:30 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:45:25 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 14:47:06 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:47:43 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:48:40 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 14:50:09 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 14:51:33 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 14:52:27 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:19]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:24]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 15:09:50 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:19]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:24]
+[Fri Apr 29 15:10:37 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:19]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:24]
+[Fri Apr 29 15:10:55 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:19]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:24]
+[Fri Apr 29 15:12:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:15:39 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:17:35 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:17:58 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:21:13 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:21:46 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 15:22:43 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:25:01 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Fri Apr 29 15:25:59 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 15:25:59 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 15:27:22 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:36:16 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:36:49 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 15:37:44 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:41:51 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:42:23 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:43:37 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:44:04 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:46:28 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:47:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:47:50 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 15:49:32 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:50:02 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:50:45 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:51:19 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:54:46 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 15:55:07 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 15:55:41 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v:1]
+[Fri Apr 29 16:24:21 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 16:24:38 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 16:28:56 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 16:30:01 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 16:30:36 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 16:31:33 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v:1]
+[Fri Apr 29 16:38:44 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 16:39:35 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v:1]
+[Fri Apr 29 16:41:35 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Apr 29 16:42:08 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Apr 29 16:43:03 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v
+update_compile_order -fileset sources_1
+remove_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/Clkdiv.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/counter.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrappers.v w ]
+add_files C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrappers.v
+update_compile_order -fileset sources_1
+file mkdir C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrappers.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/wrappers.v:1]
+[Fri Apr 29 17:00:33 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1
+[Fri Apr 29 17:01:10 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/synth_1/runme.log
+[Fri Apr 29 17:01:10 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.runs/impl_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stopwatch_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+"xvlog -m64 --relax -prj stopwatch_testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-311] analyzing module mod6
+INFO: [VRFC 10-311] analyzing module mod10
+INFO: [VRFC 10-311] analyzing module FF_DCE
+INFO: [VRFC 10-311] analyzing module counter_block
+INFO: [VRFC 10-311] analyzing module prog_timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_testbench
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 55e7832ad1b04908bb00aa7fb9b42f90 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stopwatch_testbench_behav xil_defaultlib.stopwatch_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <segment_control4to7> not found while processing module instance <CONTROL> [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stopwatch_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+"xvlog -m64 --relax -prj stopwatch_testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-311] analyzing module mod6
+INFO: [VRFC 10-311] analyzing module mod10
+INFO: [VRFC 10-311] analyzing module FF_DCE
+INFO: [VRFC 10-311] analyzing module counter_block
+INFO: [VRFC 10-311] analyzing module prog_timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_testbench
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 55e7832ad1b04908bb00aa7fb9b42f90 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stopwatch_testbench_behav xil_defaultlib.stopwatch_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <segment_control4to7> not found while processing module instance <CONTROL> [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stopwatch_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+"xvlog -m64 --relax -prj stopwatch_testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-311] analyzing module mod6
+INFO: [VRFC 10-311] analyzing module mod10
+INFO: [VRFC 10-311] analyzing module FF_DCE
+INFO: [VRFC 10-311] analyzing module counter_block
+INFO: [VRFC 10-311] analyzing module prog_timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_testbench
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 55e7832ad1b04908bb00aa7fb9b42f90 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stopwatch_testbench_behav xil_defaultlib.stopwatch_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <segment_control4to7> not found while processing module instance <CONTROL> [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stopwatch_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+"xvlog -m64 --relax -prj stopwatch_testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sources_1/new/stopwatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-311] analyzing module mod6
+INFO: [VRFC 10-311] analyzing module mod10
+INFO: [VRFC 10-311] analyzing module FF_DCE
+INFO: [VRFC 10-311] analyzing module counter_block
+INFO: [VRFC 10-311] analyzing module prog_timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stopwatch_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 55e7832ad1b04908bb00aa7fb9b42f90 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stopwatch_testbench_behav xil_defaultlib.stopwatch_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <segment_control4to7> not found while processing module instance <CONTROL> [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.srcs/sim_1/new/tb.v:16]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 29 17:10:36 2016...

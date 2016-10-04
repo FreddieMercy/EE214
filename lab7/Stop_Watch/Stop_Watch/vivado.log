@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Sep 28 01:12:35 2016
+# Process ID: 12312
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9568 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab7\Stop_Watch\Stop_Watch\Stop_Watch.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Stop_Watch.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 731.203 ; gain = 102.293
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 28 01:13:21 2016...

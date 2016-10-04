@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Apr 29 17:10:50 2016
+# Process ID: 6372
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17140 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab7\Stop_Watch\Stop_Watch\Stop_Watch.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab7/Stop_Watch/Stop_Watch/Stop_Watch.xpr
+update_compile_order -fileset sources_1
