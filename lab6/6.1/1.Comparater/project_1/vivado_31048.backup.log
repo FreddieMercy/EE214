@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Apr 15 15:22:20 2016
+# Process ID: 31048
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15292 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab6\6.1\1.Comparater\project_1\project_1.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/Comparater/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'project_1.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 793.047 ; gain = 110.781
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 15 15:23:40 2016...

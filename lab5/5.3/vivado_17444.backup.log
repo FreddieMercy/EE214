@@ -1,0 +1,240 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Mar 09 04:56:10 2016
+# Process ID: 17444
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17996 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab5\project_3\project_3.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 2979a5d97f3a4e0bb14e29b5a85a5119 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.clk_divider_default
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 09 04:56:29 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 806.090 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 811.102 ; gain = 5.012
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v:1]
+[Wed Mar 09 04:57:16 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v:1]
+[Wed Mar 09 04:57:24 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Mar 09 04:57:53 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 09 04:58:46 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 842.758 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736731A
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/clk_divider.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+undo
+INFO: [Common 17-17] undo 'set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/clk_divider.bit} [lindex [get_hw_devices] 0]'
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v:1]
+[Wed Mar 09 05:03:37 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v:1]
+[Wed Mar 09 05:05:04 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Mar 09 05:05:32 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v:1]
+[Wed Mar 09 05:06:29 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Mar 09 05:06:56 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sources_1/new/clk_divider.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 2979a5d97f3a4e0bb14e29b5a85a5119 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.clk_divider_default
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 09 05:07:23 2016...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 935.898 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 09 05:07:47 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_3/project_3.runs/impl_1/clk_divider.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 09 05:17:49 2016...

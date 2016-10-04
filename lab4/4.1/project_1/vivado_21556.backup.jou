@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 25 22:34:03 2016
+# Process ID: 21556
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21316 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_1\project_1\project_1.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.xpr
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

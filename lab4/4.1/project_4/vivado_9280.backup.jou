@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 18 01:18:22 2016
+# Process ID: 9280
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11288 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_1\project_4\project_4.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.xpr
+file mkdir C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.srcs/constrs_1
+file mkdir C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.srcs/constrs_1/new
+close [ open C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.srcs/constrs_1/new/cons.xdc w ]
+add_files -fileset constrs_1 C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.srcs/constrs_1/new/cons.xdc
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server

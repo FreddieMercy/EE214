@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 25 22:34:03 2016
+# Process ID: 21556
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21316 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_1\project_1\project_1.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.srcs/sources_1/new/mux.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.srcs/sources_1/new/mux.v:1]
+[Thu Feb 25 22:34:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Feb 25 22:34:47 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Thu Feb 25 22:36:17 2016] Launched impl_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_1/project_1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 25 22:37:55 2016...

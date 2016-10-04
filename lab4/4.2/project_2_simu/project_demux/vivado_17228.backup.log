@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 18 12:48:18 2016
+# Process ID: 17228
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12960 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_2_simu\project_demux\project_demux.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_demux' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'demux_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav'
+"xvlog -m64 --relax -prj demux_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sources_1/new/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_tb
+ERROR: [VRFC 10-91] En is not declared [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v:21]
+ERROR: [VRFC 10-91] En is not declared [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v:24]
+ERROR: [VRFC 10-1040] module demux_tb ignored due to previous errors [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v:3]
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/xvlog.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'demux_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav'
+"xvlog -m64 --relax -prj demux_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sources_1/new/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_tb
+ERROR: [VRFC 10-91] En is not declared [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v:24]
+ERROR: [VRFC 10-1040] module demux_tb ignored due to previous errors [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v:3]
+INFO: [USF-XSim-99] Step results log file:'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/xvlog.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'demux_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav'
+"xvlog -m64 --relax -prj demux_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sources_1/new/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 63f40dc4042d4683b63d1575158ec00d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot demux_tb_behav xil_defaultlib.demux_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.demux
+Compiling module xil_defaultlib.demux_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot demux_tb_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav/xsim.dir/demux_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 18 12:51:11 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 810.746 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "demux_tb_behav -key {Behavioral:sim_1:Functional:demux_tb} -tclbatch {demux_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source demux_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 100 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'demux_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 823.805 ; gain = 13.059
+run all
+$finish called at time : 120 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2_simu/project_demux/project_demux.srcs/sim_1/new/demux_tb.v" Line 29
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 18 12:51:56 2016...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Apr 29 10:04:16 2016
+# Process ID: 11196
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11020 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab5\Challenage\project_4.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage/project_4.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage/project_4.runs/impl_1/clk_divider.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/Challenage/project_4.runs/impl_1/clk_divider.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

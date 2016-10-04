@@ -1,0 +1,400 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 11 18:37:32 2016
+# Process ID: 11304
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log project0_demo.vdi -applog -messageDb vivado.pb -mode batch -source project0_demo.tcl -notrace
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/impl_1/project0_demo.vdi
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source project0_demo.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/constrs_1/imports/Basys3_p1/Project0_Basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 429.395 ; gain = 5.066
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1470afa9e
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1470afa9e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 860.277 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 1470afa9e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 860.277 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1470afa9e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 860.277 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 860.277 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1470afa9e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 860.277 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1470afa9e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 860.277 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 12 Warnings, 12 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.277 ; gain = 435.949
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 860.277 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/impl_1/project0_demo_drc_opted.rpt.
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 860.277 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 860.277 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: d6e59658
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 860.277 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: d6e59658
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.573 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: d6e59658
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.574 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 5f600be4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7bab1dec
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+Phase 1.2.1 Place Init Design | Checksum: aa7dca51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.579 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 1.2 Build Placer Netlist Model | Checksum: aa7dca51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.579 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: aa7dca51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.581 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 1.3 Constrain Clocks/Macros | Checksum: aa7dca51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.581 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 1 Placer Initialization | Checksum: aa7dca51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.581 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 176d2a0e2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.646 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 176d2a0e2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.647 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 12106b682
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.650 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 176d2a0e2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.653 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.4 Small Shape Detail Placement
+
+Phase 3.4.1 Commit Small Macros and Core Logic
+
+Phase 3.4.1.1 Commit Slice Clusters
+Phase 3.4.1.1 Commit Slice Clusters | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.942 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 3.4.1 Commit Small Macros and Core Logic | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.942 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.4.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.4.2 Clock Restriction Legalization for Leaf Columns | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.948 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.4.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.4.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.949 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 3.4 Small Shape Detail Placement | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.951 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 3.5 Re-assign LUT pins
+Phase 3.5 Re-assign LUT pins | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.952 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 3 Detail Placement | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.952 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.953 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.954 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.954 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 4.4 Placer Reporting
+Phase 4.4 Placer Reporting | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.954 . Memory (MB): peak = 874.441 ; gain = 14.164
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.955 . Memory (MB): peak = 874.441 ; gain = 14.164
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 10c906ff4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.955 . Memory (MB): peak = 874.441 ; gain = 14.164
+Ending Placer Task | Checksum: a828f71a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.958 . Memory (MB): peak = 874.441 ; gain = 14.164
+INFO: [Common 17-83] Releasing license: Implementation
+33 Infos, 12 Warnings, 12 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 874.441 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 874.441 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 874.441 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 874.441 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 8bdde512 ConstDB: 0 ShapeSum: 1c4b1208 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 1a133fb49
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 983.762 ; gain = 109.320
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Pre Route Cleanup
+Phase 2.1 Pre Route Cleanup | Checksum: 1a133fb49
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 988.348 ; gain = 113.906
+Phase 2 Router Initialization | Checksum: 1a133fb49
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1984a7c1d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+Phase 4 Rip-up And Reroute | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 6 Post Hold Fix
+Phase 6 Post Hold Fix | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0159451 %
+  Global Horizontal Routing Utilization  = 0.00169183 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 16.2162%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 16.2162%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 2.94118%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 2.94118%, No Congested Regions.
+Phase 7 Route finalize | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 989.727 ; gain = 115.285
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 11e0d1134
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 990.965 ; gain = 116.523
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: f9065968
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 990.965 ; gain = 116.523
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 990.965 ; gain = 116.523
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 12 Warnings, 12 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 990.965 ; gain = 116.523
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 990.965 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/impl_1/project0_demo_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 11 18:38:13 2016...

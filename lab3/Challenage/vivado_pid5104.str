@@ -1,0 +1,81 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 5104
+
+Current time: 	2/18/16 2:31:43 AM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	junhao.zhang.freddie
+User home directory: C:/Users/junhao.zhang.freddie
+User working directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/junhao.zhang.freddie/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/junhao.zhang.freddie/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	220 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 491 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\junhao.zhang.freddie\Vivado_Projects\lab3\project_2\project_2.xpr. Version: Vivado v2015.4 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_2/project_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 51 MB (+51129kb) [00:00:03]
+// [Engine Memory]: 416 MB (+284858kb) [00:00:03]
+// [GUI Memory]: 68 MB (+15085kb) [00:00:04]
+// [Engine Memory]: 438 MB (+1111kb) [00:00:04]
+// [Engine Memory]: 460 MB (+516kb) [00:00:04]
+// [Engine Memory]: 491 MB (+8122kb) [00:00:04]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_2; location: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_2; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 496 MB. GUI used memory: 34 MB. Current time: 2/18/16 2:31:45 AM PST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, abc_tb (abc_tb.v), uut - abc (abc.v)]", 6, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, abc_tb (abc_tb.v), uut - abc (abc.v)]", 6, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, abc_tb (abc_tb.v)]", 5, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, abc_tb (abc_tb.v)]", 5, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 126 seconds
+selectCodeEditor("abc_tb.v", 85, 520); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "abc_tb.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 36 MB. Current time: 2/18/16 3:01:53 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 34 MB. Current time: 2/18/16 9:29:57 AM PST

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 18 12:41:51 2016
+# Process ID: 9652
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2
+# Command line: wbtcv.exe -mode batch -source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2.5/project_2.5.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2/webtalk.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2.5/project_2.5.hw/webtalk/labtool_webtalk.tcl -notrace

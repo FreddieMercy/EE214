@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1457528816">
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="ROUTE-STATUS-PB" Name="clk_divider_route_status.pb"/>
+  <File Type="PA-TCL" Name="clk_divider.tcl"/>
+  <File Type="OPT-DCP" Name="clk_divider_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="OPT-TIMING" Name="clk_divider_timing_summary_opted.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="OPT-DRC" Name="clk_divider_drc_opted.rpt"/>
+  <File Type="ROUTE-DCP" Name="clk_divider_routed.dcp"/>
+  <File Type="INIT-TIMING" Name="clk_divider_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="clk_divider.hwdef"/>
+  <File Type="PWROPT-DCP" Name="clk_divider_pwropt.dcp"/>
+  <File Type="RDI-RDI" Name="clk_divider.vdi"/>
+  <File Type="PWROPT-DRC" Name="clk_divider_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="clk_divider_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="clk_divider_placed.dcp"/>
+  <File Type="PLACE-IO" Name="clk_divider_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="clk_divider_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="clk_divider_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="clk_divider_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="clk_divider_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="clk_divider_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="clk_divider_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="clk_divider_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="clk_divider_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="clk_divider_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="clk_divider_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="clk_divider_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="clk_divider_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="clk_divider_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="clk_divider_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="clk_divider_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="clk_divider_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="clk_divider_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="clk_divider_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="clk_divider_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="clk_divider_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="clk_divider_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="clk_divider_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="clk_divider_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="clk_divider_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="clk_divider_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="clk_divider_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="clk_divider.bit"/>
+  <File Type="BG-BIN" Name="clk_divider.bin"/>
+  <File Type="BITSTR-MSK" Name="clk_divider.msk"/>
+  <File Type="BITSTR-RBT" Name="clk_divider.rbt"/>
+  <File Type="BITSTR-NKY" Name="clk_divider.nky"/>
+  <File Type="BITSTR-BMM" Name="clk_divider_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="clk_divider.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="clk_divider.sysdef"/>
+  <File Type="BG-BGN" Name="clk_divider.bgn"/>
+  <File Type="BG-DRC" Name="clk_divider.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/dff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="clk_divider"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

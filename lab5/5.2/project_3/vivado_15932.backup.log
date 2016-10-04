@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Mar 18 16:57:25 2016
+# Process ID: 15932
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_2/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13932 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab5\project_2\project_3\project_2.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_2/project_3/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_2/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab5/project_2/project_3/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 803.410 ; gain = 217.207
+exit

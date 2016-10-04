@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Feb 14 23:10:09 2016
+# Process ID: 15152
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace

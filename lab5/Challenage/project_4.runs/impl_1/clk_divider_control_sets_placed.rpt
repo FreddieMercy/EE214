@@ -1,0 +1,81 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Mar 19 15:31:54 2016
+| Host         : Junhao running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file clk_divider_control_sets_placed.rpt
+| Design       : clk_divider
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    28 |
+| Minimum Number of register sites lost to control set restrictions |   189 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              27 |           27 |
+| No           | No                    | Yes                    |               8 |            2 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+---------------+------------------+------------------+----------------+
+|              Clock Signal             | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+---------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG                        |               |                  |                1 |              1 |
+|  dff_gen_label[1].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[19].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[18].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[17].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[16].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[15].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[14].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_inst0/Q                          |               |                  |                1 |              1 |
+|  dff_gen_label[9].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[8].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[7].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[6].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[5].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[13].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[4].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[3].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[2].dff_inst/Q_reg_0    |               |                  |                1 |              1 |
+|  dff_gen_label[25].dff_inst/clkdiv_25 |               |                  |                1 |              1 |
+|  dff_gen_label[24].dff_inst/clkdiv_24 |               |                  |                1 |              1 |
+|  dff_gen_label[23].dff_inst/clkdiv_23 |               |                  |                1 |              1 |
+|  dff_gen_label[22].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[21].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[20].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[12].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[11].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[10].dff_inst/Q_reg_0   |               |                  |                1 |              1 |
+|  dff_gen_label[23].dff_inst/CLK       |               | ctr[7]_i_2_n_0   |                2 |              8 |
++---------------------------------------+---------------+------------------+------------------+----------------+
+
+

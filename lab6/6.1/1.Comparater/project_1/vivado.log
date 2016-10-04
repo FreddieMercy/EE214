@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Fri Apr 15 16:10:55 2016
+# Process ID: 4888
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20824 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab6\6.1\1.Comparater\project_1\project_1.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp_bitslice.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp_bitslice.v:1]
+[Fri Apr 15 16:11:20 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'cmp_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj cmp_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp_bitslice.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_bitslice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sources_1/new/cmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.srcs/sim_1/new/cmp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 09686968fe9d4621a858aef83f8bf668 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cmp_tb_behav xil_defaultlib.cmp_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cmp_bitslice
+Compiling module xil_defaultlib.cmp
+Compiling module xil_defaultlib.cmp_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cmp_tb_behav
+
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.sim/sim_1/behav/xsim.dir/cmp_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 15 16:11:57 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 793.781 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab6/6.1/1.Comparater/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cmp_tb_behav -key {Behavioral:sim_1:Functional:cmp_tb} -tclbatch {cmp_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.1
+Time resolution is 1 ps
+source cmp_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cmp_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 793.781 ; gain = 0.000
+run all
+run all
+run all
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 15 16:15:17 2016...

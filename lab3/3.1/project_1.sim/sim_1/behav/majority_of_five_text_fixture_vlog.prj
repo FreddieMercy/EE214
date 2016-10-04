@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

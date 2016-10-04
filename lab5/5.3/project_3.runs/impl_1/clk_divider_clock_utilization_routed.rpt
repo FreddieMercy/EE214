@@ -1,0 +1,336 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date              : Wed Mar 09 05:07:44 2016
+| Host              : Junhao running 64-bit major release  (build 9200)
+| Command           : report_clock_utilization -file clk_divider_clock_utilization_routed.rpt
+| Design            : clk_divider
+| Device            : 7a35t-cpg236
+| Speed File        : -1  PRODUCTION 1.14 2014-09-11
+| Temperature Grade : C
+----------------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Details of Global Clocks
+3. Details of Regional Clocks
+4. Details of Multi-Regional Clocks
+5. Details of I/O Clocks
+6. Details of Local Clocks
+7. Clock Regions : Key Resource Utilization
+8. Net wise resources used in clock region X0Y0
+
+1. Clock Primitive Utilization
+------------------------------
+
++-------+------+-----------+-----------+
+| Type  | Used | Available | Num Fixed |
++-------+------+-----------+-----------+
+| BUFG  |    1 |        32 |         0 |
+| BUFH  |    0 |        72 |         0 |
+| BUFIO |    0 |        20 |         0 |
+| MMCM  |    0 |         5 |         0 |
+| PLL   |    0 |         5 |         0 |
+| BUFR  |    0 |        20 |         0 |
+| BUFMR |    0 |        10 |         0 |
++-------+------+-----------+-----------+
+
+
+2. Details of Global Clocks
+---------------------------
+
++-------+--------------------+---------------+--------------+-------+
+|       |                    |               |   Num Loads  |       |
++-------+--------------------+---------------+------+-------+-------+
+| Index | BUFG Cell          | Net Name      | BELs | Sites | Fixed |
++-------+--------------------+---------------+------+-------+-------+
+|     1 | clk_IBUF_BUFG_inst | clk_IBUF_BUFG |    1 |     1 |    no |
++-------+--------------------+---------------+------+-------+-------+
+
+
+3. Details of Regional Clocks
+-----------------------------
+
+4. Details of Multi-Regional Clocks
+-----------------------------------
+
+5. Details of I/O Clocks
+------------------------
+
+6. Details of Local Clocks
+--------------------------
+
++-------+----------------------------------+--------------------------------------+--------------+-------+
+|       |                                  |                                      |   Num Loads  |       |
++-------+----------------------------------+--------------------------------------+------+-------+-------+
+| Index | Local Clk Src                    | Net Name                             | BELs | Sites | Fixed |
++-------+----------------------------------+--------------------------------------+------+-------+-------+
+|     1 | dff_gen_label[10].dff_inst/Q_reg | dff_gen_label[10].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     2 | dff_gen_label[11].dff_inst/Q_reg | dff_gen_label[11].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     3 | dff_gen_label[12].dff_inst/Q_reg | dff_gen_label[12].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     4 | dff_gen_label[13].dff_inst/Q_reg | dff_gen_label[13].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     5 | dff_gen_label[14].dff_inst/Q_reg | dff_gen_label[14].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     6 | dff_gen_label[15].dff_inst/Q_reg | dff_gen_label[15].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     7 | dff_gen_label[16].dff_inst/Q_reg | dff_gen_label[16].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     8 | dff_gen_label[17].dff_inst/Q_reg | dff_gen_label[17].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|     9 | dff_gen_label[18].dff_inst/Q_reg | dff_gen_label[18].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|    10 | dff_gen_label[19].dff_inst/Q_reg | dff_gen_label[19].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|    11 | dff_gen_label[1].dff_inst/Q_reg  | dff_gen_label[1].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    12 | dff_gen_label[20].dff_inst/Q_reg | dff_gen_label[20].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|    13 | dff_gen_label[21].dff_inst/Q_reg | dff_gen_label[21].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|    14 | dff_gen_label[22].dff_inst/Q_reg | dff_gen_label[22].dff_inst/Q_reg_0   |    2 |     2 |    no |
+|    15 | dff_gen_label[2].dff_inst/Q_reg  | dff_gen_label[2].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    16 | dff_gen_label[3].dff_inst/Q_reg  | dff_gen_label[3].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    17 | dff_gen_label[4].dff_inst/Q_reg  | dff_gen_label[4].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    18 | dff_gen_label[5].dff_inst/Q_reg  | dff_gen_label[5].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    19 | dff_gen_label[6].dff_inst/Q_reg  | dff_gen_label[6].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    20 | dff_gen_label[7].dff_inst/Q_reg  | dff_gen_label[7].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    21 | dff_gen_label[8].dff_inst/Q_reg  | dff_gen_label[8].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    22 | dff_gen_label[9].dff_inst/Q_reg  | dff_gen_label[9].dff_inst/Q_reg_0    |    2 |     2 |    no |
+|    23 | dff_inst0/Q_reg                  | dff_inst0/Q                          |    2 |     2 |    no |
+|    24 | dff_gen_label[23].dff_inst/Q_reg | dff_gen_label[23].dff_inst/clkdiv_23 |    3 |     3 |    no |
+|    25 | dff_gen_label[24].dff_inst/Q_reg | dff_gen_label[24].dff_inst/clkdiv_24 |    3 |     3 |    no |
+|    26 | dff_gen_label[25].dff_inst/Q_reg | dff_gen_label[25].dff_inst/clkdiv_25 |    3 |     2 |    no |
++-------+----------------------------------+--------------------------------------+------+-------+-------+
+
+
+7. Clock Regions : Key Resource Utilization
+-------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |      FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E1   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   27 |  9600 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 12000 |    0 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
+| X0Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  9600 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 12000 |    0 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
+| X0Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 14400 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y2              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |  7600 |    0 |  1200 |    0 |    10 |    0 |     5 |    0 |    20 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+* RAMB36 site can be used as two RAMB18/FIFO18 sites.
+
+
+8. Net wise resources used in clock region X0Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | Clock Net Name |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| BUFG        | BUFHCE_X0Y8 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |   1 |     0 |        0 | clk_IBUF_BUFG  |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y0 [get_cells clk_IBUF_BUFG_inst]
+
+# Location of IO Clock Primitives
+
+# Location of MMCM Clock Primitives
+
+# Location of BUFH Clock Primitives
+
+# Location of BUFR Clock Primitives
+
+# Location of BUFMR Clock Primitives
+
+# Location of PLL Clock Primitives
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X1Y26 [get_ports clk]
+
+# Clock net "clk_IBUF_BUFG" driven by instance "clk_IBUF_BUFG_inst" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock {CLKAG_clk_IBUF_BUFG}
+add_cells_to_pblock [get_pblocks  {CLKAG_clk_IBUF_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="clk_IBUF_BUFG"}]]]
+resize_pblock [get_pblocks {CLKAG_clk_IBUF_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[10].dff_inst/Q_reg_0" driven by instance "dff_gen_label[10].dff_inst/Q_reg" located at site "SLICE_X2Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[10].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[10].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[10].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[10].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[11].dff_inst/Q_reg_0" driven by instance "dff_gen_label[11].dff_inst/Q_reg" located at site "SLICE_X3Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[11].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[11].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[11].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[11].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[12].dff_inst/Q_reg_0" driven by instance "dff_gen_label[12].dff_inst/Q_reg" located at site "SLICE_X4Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[12].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[12].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[12].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[12].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[13].dff_inst/Q_reg_0" driven by instance "dff_gen_label[13].dff_inst/Q_reg" located at site "SLICE_X5Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[13].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[13].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[13].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[13].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[14].dff_inst/Q_reg_0" driven by instance "dff_gen_label[14].dff_inst/Q_reg" located at site "SLICE_X6Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[14].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[14].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[14].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[14].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[15].dff_inst/Q_reg_0" driven by instance "dff_gen_label[15].dff_inst/Q_reg" located at site "SLICE_X7Y16"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[15].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[15].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[15].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[15].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[16].dff_inst/Q_reg_0" driven by instance "dff_gen_label[16].dff_inst/Q_reg" located at site "SLICE_X7Y15"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[16].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[16].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[16].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[16].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[17].dff_inst/Q_reg_0" driven by instance "dff_gen_label[17].dff_inst/Q_reg" located at site "SLICE_X6Y15"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[17].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[17].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[17].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[17].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[18].dff_inst/Q_reg_0" driven by instance "dff_gen_label[18].dff_inst/Q_reg" located at site "SLICE_X6Y14"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[18].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[18].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[18].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[18].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[19].dff_inst/Q_reg_0" driven by instance "dff_gen_label[19].dff_inst/Q_reg" located at site "SLICE_X6Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[19].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[19].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[19].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[19].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[1].dff_inst/Q_reg_0" driven by instance "dff_gen_label[1].dff_inst/Q_reg" located at site "SLICE_X1Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[1].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[1].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[1].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[1].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[20].dff_inst/Q_reg_0" driven by instance "dff_gen_label[20].dff_inst/Q_reg" located at site "SLICE_X5Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[20].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[20].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[20].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[20].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[21].dff_inst/Q_reg_0" driven by instance "dff_gen_label[21].dff_inst/Q_reg" located at site "SLICE_X5Y18"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[21].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[21].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[21].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[21].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[22].dff_inst/Q_reg_0" driven by instance "dff_gen_label[22].dff_inst/Q_reg" located at site "SLICE_X6Y18"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[22].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[22].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[22].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[22].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[23].dff_inst/clkdiv_23" driven by instance "dff_gen_label[23].dff_inst/Q_reg" located at site "SLICE_X6Y19"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[23].dff_inst/clkdiv_23}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[23].dff_inst/clkdiv_23}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[23].dff_inst/clkdiv_23"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[23].dff_inst/clkdiv_23}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[24].dff_inst/clkdiv_24" driven by instance "dff_gen_label[24].dff_inst/Q_reg" located at site "SLICE_X7Y19"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[24].dff_inst/clkdiv_24}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[24].dff_inst/clkdiv_24}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[24].dff_inst/clkdiv_24"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[24].dff_inst/clkdiv_24}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[25].dff_inst/clkdiv_25" driven by instance "dff_gen_label[25].dff_inst/Q_reg" located at site "SLICE_X6Y20"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[25].dff_inst/clkdiv_25}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[25].dff_inst/clkdiv_25}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[25].dff_inst/clkdiv_25"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[25].dff_inst/clkdiv_25}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[2].dff_inst/Q_reg_0" driven by instance "dff_gen_label[2].dff_inst/Q_reg" located at site "SLICE_X2Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[2].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[2].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[2].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[2].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[3].dff_inst/Q_reg_0" driven by instance "dff_gen_label[3].dff_inst/Q_reg" located at site "SLICE_X3Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[3].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[3].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[3].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[3].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[4].dff_inst/Q_reg_0" driven by instance "dff_gen_label[4].dff_inst/Q_reg" located at site "SLICE_X4Y17"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[4].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[4].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[4].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[4].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[5].dff_inst/Q_reg_0" driven by instance "dff_gen_label[5].dff_inst/Q_reg" located at site "SLICE_X4Y18"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[5].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[5].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[5].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[5].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[6].dff_inst/Q_reg_0" driven by instance "dff_gen_label[6].dff_inst/Q_reg" located at site "SLICE_X3Y18"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[6].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[6].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[6].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[6].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[7].dff_inst/Q_reg_0" driven by instance "dff_gen_label[7].dff_inst/Q_reg" located at site "SLICE_X3Y19"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[7].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[7].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[7].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[7].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[8].dff_inst/Q_reg_0" driven by instance "dff_gen_label[8].dff_inst/Q_reg" located at site "SLICE_X2Y19"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[8].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[8].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[8].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[8].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_gen_label[9].dff_inst/Q_reg_0" driven by instance "dff_gen_label[9].dff_inst/Q_reg" located at site "SLICE_X2Y18"
+#startgroup
+create_pblock {CLKAG_dff_gen_label[9].dff_inst/Q_reg_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_gen_label[9].dff_inst/Q_reg_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_gen_label[9].dff_inst/Q_reg_0"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_gen_label[9].dff_inst/Q_reg_0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "dff_inst0/Q" driven by instance "dff_inst0/Q_reg" located at site "SLICE_X0Y17"
+#startgroup
+create_pblock {CLKAG_dff_inst0/Q}
+add_cells_to_pblock [get_pblocks  {CLKAG_dff_inst0/Q}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="dff_inst0/Q"}]]]
+resize_pblock [get_pblocks {CLKAG_dff_inst0/Q}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup

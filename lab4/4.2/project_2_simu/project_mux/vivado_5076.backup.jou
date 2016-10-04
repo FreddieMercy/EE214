@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 25 19:35:20 2016
+# Process ID: 5076
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2/project_2_simu/project_mux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8220 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_2\project_2_simu\project_mux\project_2.5.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2/project_2_simu/project_mux/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2/project_2_simu/project_mux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_2/project_2_simu/project_mux/project_2.5.xpr
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+close_sim

@@ -1,0 +1,417 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Feb 12 15:16:44 2016
+# Process ID: 11008
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9336 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab3\project_1\project_1.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 15:17:05 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 798.574 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 27
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 801.137 ; gain = 2.563
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 15:55:53 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 828.758 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 27
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 828.758 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v:1]
+[Fri Feb 12 15:56:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/majority_of_five_text_fixture_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 15:56:33 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 831.098 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 27
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 831.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 15:57:00 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 831.098 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 27
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 831.762 ; gain = 0.664
+run all
+run all
+run all
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v:1]
+[Fri Feb 12 16:03:56 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 16:04:40 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 839.680 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 27
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 839.680 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library work [C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v:1]
+[Fri Feb 12 16:05:24 2016] Launched synth_1...
+Run output will be captured here: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/majority_of_five_text_fixture_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'majority_of_five_text_fixture' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj majority_of_five_text_fixture_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sources_1/imports/Basys3_p1/project0_demo_Basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project0_demo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module majority_of_five_text_fixture
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 68352bbeee084230865a8035305e1148 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot majority_of_five_text_fixture_behav xil_defaultlib.majority_of_five_text_fixture xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.project0_demo
+Compiling module xil_defaultlib.majority_of_five_text_fixture
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot majority_of_five_text_fixture_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav/xsim.dir/majority_of_five_text_fixture_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 12 16:05:45 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 845.293 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "majority_of_five_text_fixture_behav -key {Behavioral:sim_1:Functional:majority_of_five_text_fixture} -tclbatch {majority_of_five_text_fixture.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source majority_of_five_text_fixture.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 660 ns : File "C:/Users/junhao.zhang.freddie/Vivado_Projects/lab3/project_1/project_1.srcs/sim_1/new/file majority_of_five_test_fixture.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'majority_of_five_text_fixture_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 845.293 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 14 23:10:13 2016...

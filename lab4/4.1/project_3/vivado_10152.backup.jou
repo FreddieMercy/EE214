@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Feb 19 15:05:39 2016
+# Process ID: 10152
+# Current directory: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5472 C:\Users\junhao.zhang.freddie\Vivado_Projects\lab4\project_1\project_3\project_3.xpr
+# Log file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3/vivado.log
+# Journal file: C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3/project_3.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3/project_3.runs/impl_1/dec.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_3/project_3.runs/impl_1/dec.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+open_project C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.xpr
+current_project project_3
+close_project
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.runs/impl_1/sft.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/junhao.zhang.freddie/Vivado_Projects/lab4/project_1/project_4/project_4.runs/impl_1/sft.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1453937030">
+  <File Type="OPT-DCP" Name="led_sw_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="led_sw_routed.dcp"/>
+  <File Type="PA-TCL" Name="led_sw.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="led_sw_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="led_sw_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="led_sw_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="led_sw.hwdef"/>
+  <File Type="PWROPT-DCP" Name="led_sw_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="led_sw_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="led_sw_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="led_sw_placed.dcp"/>
+  <File Type="PLACE-IO" Name="led_sw_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="led_sw_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="led_sw_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="led_sw_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="led_sw_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="led_sw_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="led_sw_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="led_sw_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="led_sw_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="led_sw_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="led_sw_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="led_sw.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="led_sw_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="led_sw_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="led_sw_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="led_sw_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="led_sw_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="led_sw_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="led_sw_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="led_sw_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="led_sw_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="led_sw_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="led_sw_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="led_sw_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="led_sw_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="led_sw_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="led_sw_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="led_sw_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="led_sw_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="led_sw.bit"/>
+  <File Type="BG-BIN" Name="led_sw.bin"/>
+  <File Type="BITSTR-MSK" Name="led_sw.msk"/>
+  <File Type="BITSTR-RBT" Name="led_sw.rbt"/>
+  <File Type="BITSTR-NKY" Name="led_sw.nky"/>
+  <File Type="BITSTR-BMM" Name="led_sw_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="led_sw.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="led_sw.sysdef"/>
+  <File Type="BG-BGN" Name="led_sw.bgn"/>
+  <File Type="BG-DRC" Name="led_sw.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/led_sw.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="led_sw"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
